@@ -276,7 +276,7 @@ class Character:
 
     # Assign random name
     def pick_name(self):
-        with open("resources/common/names.txt", "r") as names:
+        with open("resources/common/data/names.txt", "r") as names:
             lines = names.read().splitlines()
             self.name += f" ({random.choice(lines)})"
 

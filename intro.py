@@ -5,6 +5,7 @@ from resources.common.functions import *
 from resources.common.classes import *
 
 # Introduction
+play_music(file="resources/common/soundFiles/moscowNights.wav")  # Play intro music
 text_reader("resources/intro/setting.txt", narrator=True)
 
 # Mission Brief

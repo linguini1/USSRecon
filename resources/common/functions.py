@@ -22,6 +22,20 @@ items = {"Caviar": cls.Caviar(),
          "Pistol Ammo": cls.PistolAmmo()}
 
 
+# Play music
+def play_music(file=None, loop=True):
+
+    # Empty file argument means stop sound
+    # ASYNC plays sound in the background and allows other code to execute
+    # LOOP loops the sound once it's done
+
+    if loop:  # Looped
+        winsound.PlaySound(file, winsound.SND_ASYNC + winsound.SND_LOOP)
+
+    else:  # No loop
+        winsound.PlaySound(file, winsound.SND_ASYNC)
+
+
 # Function to read non-character dialogue
 def read_dialogue(line):
     for character in line[4:]:  # Remove signifier dialogue tag
@@ -139,6 +153,9 @@ def health_display(player, opponent):
 # Battle
 def start_battle(player, opponent, first=False):
 
+    # Play soundtrack
+    play_music(file="resources/common/soundFiles/battle.wav")
+
     # Opponent starts first
     if first:
         P1 = opponent
@@ -217,9 +234,11 @@ def start_battle(player, opponent, first=False):
                     
               """)
         input("Press enter to continue.")  # Continue
+        play_music()  # Stop music
         clear_screen()
 
     elif player.health == 0:
+        play_music()  # Stop music
         print("""                                                  
               ####  ###  #   #     #####  ###   #### #####  #  
              #   # #   #  # #       #  # #   # #     #      #  
@@ -230,6 +249,7 @@ def start_battle(player, opponent, first=False):
              
              """)
         print("(You Lose!)")
+        play_music()  # Stop music
         quit()
 
 
@@ -334,10 +354,3 @@ def read_document(player):
         else:  # Invalid input
             read_dialogue("NA: Yes or no, soldier.")
             print()
-
-
-# Play music
-def play_music(file=None):
-
-    # Empty file argument means stop sound
-    winsound.PlaySound(file, winsound.SND_ASYNC)

@@ -7,7 +7,7 @@ from resources.common.functions import *
 clear_screen()  # Clearing screen
 
 # Title music
-play_music(file="resources/common/March.wav")
+play_music(file="resources/common/soundFiles/march.wav")
 time.sleep(1.4)
 
 print("""UUUUUUUU     UUUUUUUU   SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS RRRRRRRRRRRRRRRRR                                                                              
@@ -51,7 +51,7 @@ while True:
 
         clear_screen()
 
-        with open("resources/common/saveFile.txt", "r") as file:  # open save file
+        with open("resources/common/data/saveFile.txt", "r") as file:  # open save file
             read_save(restart=True)  # Pass a protagonist with a placeholder name
 
         break

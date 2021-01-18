@@ -11,6 +11,7 @@ player = read_save()
 save(player, __file__)
 
 # Setting
+play_music(file="resources/common/soundFiles/train.wav")  # Starting train sounds
 text_reader("resources/bonusTrain/setting.txt", narrator=True)
 
 # Complete bonus level or ignore it
@@ -59,6 +60,7 @@ spy.health -= Fists().damage  # Initial punch
 start_battle(player, spy, first=True)
 weapon_switch(player, spy)  # Switch weapons
 
+play_music(file="resources/common/soundFiles/train.wav")  # Starting train sounds after battle again
 # Victory
 player.inventory.append(Caviar())  # Carries caviar
 player.inventory.append(PistolAmmo())  # Pistol ammo
@@ -71,6 +73,7 @@ clear_screen()
 
 # Read documents
 read_document(player)
+play_music()  # Ending train sounds before next level
 
 # Save
 save(player, __file__)

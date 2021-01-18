@@ -1,0 +1,18 @@
+C:\coding\python\projects\USSRecon\bonusTrain.py
+Jenny
+Nagant M1895
+3
+Stolpce Plans | resources/common/documents/stolpce.txt
+ITEMS
+Rifle Ammo
+Rifle Ammo
+Caviar
+Caviar
+Pistol Ammo
+Pistol Ammo
+Caviar
+Pistol Ammo
+Pistol Ammo
+Caviar
+Pistol Ammo
+Pistol Ammo

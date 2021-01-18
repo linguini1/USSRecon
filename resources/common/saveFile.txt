@@ -1,15 +1,12 @@
 C:\coding\python\projects\USSRecon\bonusTrain.py
-Jenny
+Poopie
 Nagant M1895
-4
+6
 Stolpce Plans | resources/common/documents/stolpce.txt
 ITEMS
 Rifle Ammo
 Rifle Ammo
 Caviar
-Caviar
-Pistol Ammo
-Pistol Ammo
 Caviar
 Pistol Ammo
 Pistol Ammo
