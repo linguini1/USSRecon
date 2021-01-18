@@ -1,13 +1,15 @@
 C:\coding\python\projects\USSRecon\bonusTrain.py
-Benjamin Smith
+Jenny
 Nagant M1895
-5
+4
 Stolpce Plans | resources/common/documents/stolpce.txt
 ITEMS
-Vodka
 Rifle Ammo
 Rifle Ammo
 Caviar
+Caviar
+Pistol Ammo
+Pistol Ammo
 Caviar
 Pistol Ammo
 Pistol Ammo

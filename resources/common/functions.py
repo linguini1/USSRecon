@@ -4,6 +4,7 @@
 import importlib
 import time
 from os import system, name
+import winsound
 import resources.common.classes as cls
 
 # Weapons list
@@ -327,7 +328,16 @@ def read_document(player):
 
         elif choice.lower() == "no" or choice.lower() == "n":  # No
             read_dialogue("NA: Suit yourself, soldier.")
+            print()
             break
 
         else:  # Invalid input
             read_dialogue("NA: Yes or no, soldier.")
+            print()
+
+
+# Play music
+def play_music(file=None):
+
+    # Empty file argument means stop sound
+    winsound.PlaySound(file, winsound.SND_ASYNC)

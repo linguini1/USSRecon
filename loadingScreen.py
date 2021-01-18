@@ -1,14 +1,13 @@
 # Menu
 
 # Imports
-import winsound
 from resources.common.functions import *
 
 # Impressive title screen
 clear_screen()  # Clearing screen
 
 # Title music
-winsound.PlaySound("resources/common/March.wav", winsound.SND_ASYNC)
+play_music(file="resources/common/March.wav")
 time.sleep(1.4)
 
 print("""UUUUUUUU     UUUUUUUU   SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS RRRRRRRRRRRRRRRRR                                                                              
@@ -40,11 +39,13 @@ print("""
 
 time.sleep(5.5)  # Pause before loading save
 
+print("\n\n\n\n\n")  # Some line gaps
+
 # Check for save file
 while True:
     read_dialogue("TS: Do you have a save file? ")
     saved = input("Enter (y/n): ")
-    winsound.PlaySound(None, winsound.SND_ASYNC)
+    play_music()
 
     if saved.lower() == "y" or saved.lower() == "yes":
 

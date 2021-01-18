@@ -9,9 +9,10 @@ text_reader("resources/intro/setting.txt", narrator=True)
 
 # Mission Brief
 text_reader("resources/intro/missionBrief.txt", narrator=True)
+print()
 
 # Getting name
-playerName = input("What's your name, son? Enter: ")
+playerName = input("What's your name, soldier? Enter: ")
 
 # Setting up player
 player = Protagonist(playerName)

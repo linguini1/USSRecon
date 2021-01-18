@@ -337,27 +337,33 @@ class Protagonist(Character):
 
         # Making choice
         while True:
-            choice = input("Item to use: ")
+            choice = input("Item to use (or type 'skip'): ")
 
-            try:
-                choice = int(choice)
+            if choice != "skip":  # Didn't skip choosing an item
 
-                if 1 <= choice <= len(self.inventory):  # An item was selected
-                    self.inventory[choice - 1].use(self, choice)  # Use item
-                    break
+                try:
+                    choice = int(choice)
 
-                else:
-                    fxn.read_dialogue("SE: You didn't pick a valid option, man!")  # Out of range
+                    if 1 <= choice <= len(self.inventory):  # An item was selected
+                        self.inventory[choice - 1].use(self, choice)  # Use item
+                        break
+
+                    else:
+                        fxn.read_dialogue("SE: You didn't pick a valid option, man!")  # Out of range
+                        print()
+
+                except ValueError:
+                    fxn.read_dialogue(f"SE: You didn't pick a valid option, man!")  # Not integer
                     print()
 
-            except ValueError:
-                fxn.read_dialogue(f"SE: You didn't pick a valid option, man!")  # Not integer
-                print()
+            else:  # Skipped
+                break
 
     # Switch weapons
     def switch_weapon(self, opponent):
 
         fxn.read_dialogue(f"NA: Switched {self.weapon} with {opponent.weapon}")
+        print()
 
         self.weapon = opponent.weapon  # Actual switch
 
