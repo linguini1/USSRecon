@@ -1,0 +1,20 @@
+NA: You quickly return to your seat. Shortly afterward, the spy exits the washroom and resumes their work.
+NA: You wait a few minutes to avoid suspicion, and then walk up to their table.
+NA: ---
+PR: Здравствуйте. У меня есть важный багаж, но он под очень тяжелым багажом. Не можете мне помочь?
+PR: Hello. I have an important piece of luggage, but it's underneath a very heavy bag. Can you help me?
+NA: ---
+NA: The spy looks at you, confused.
+NA: ---
+SP: Да конечно, товарь.
+SP: Yes, certainly, comrade.
+NA: ---
+NA: At least this one didn't comment about your accent. Maybe they're too stupid to notice.
+NA: The spy follows you into the luggage cabin, where you point at a random suitcase sandwiched under a large bag.
+NA: ---
+PR: Вот он.
+PR: There it is.
+NA: ---
+NA: You and the spy grab hold of either side of the large bag, and when the spy starts to lift, you let go and throw a punch.
+NA: The spy, sprawled across the floor, struggles to their feet and draws a knife.
+NA: It's time to fight.

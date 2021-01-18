@@ -1,0 +1,29 @@
+G1: Блин, я постоянно тебе скажу: хватит пить!
+G1: Dammit, I always tell you: that's enough drinking!
+NA: ---
+G2: Молчай, это ничего.
+G2: Shut up, it's nothing.
+NA: ---
+NA: There is the rustling of clothes and you hear the sound of glass clinking against concrete. One of the guards must have tried to take the bottle.
+NA: ---
+G1: Ой, дай мне это уже! Знаешь что, началник ненавидет когда пешь!
+G1: Oy, give it to me already! You know that the boss hates it when you drink!
+NA: ---
+G2: Нет, но по даброте я перестану пить.
+G2: No, but out of kindness I'll stop drinking.
+NA: ---
+G1: Аххх, хорошо.
+G1: Ugh, fine.
+NA: ---
+NA: This has gone on long enough. If you want to make it to where the info is kept, you know you have to get through the guards.
+NA: By the sounds of it, you can take them head on.
+NA: ---
+PR: Ой, дебили! Перестайте пить и убивайте меня!
+PR: Oy, idiots! Quit drinking and kill me!
+NA: ---
+G1: Звучит как Американец! Взять их!
+G1: It sounds like an American! Get them!
+NA: ---
+NA: Wow okay. I guess your Russian really needs some work.
+NA: The guards start running toward you. The first guard draws his AK47.
+NA: It's time for a fight.

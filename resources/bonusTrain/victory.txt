@@ -1,0 +1,18 @@
+NA: The spy lies crumpled on the cabin floor. You search their pockets for anything that could be considered useful.
+NA: You find a cigarette lighter, but toss it. In the inner pocket there is two rounds of pistol ammo.
+NA: Maybe they would have lived if they used their pistol instead. Although, there's no pistol in their belongings.
+NA: They might have left it with their luggage.
+NA: *PISTOL AMMO ACQUIRED*
+NA: *PISTOL AMMO ACQUIRED*
+NA: You also find a jar of caviar. What is it with these soviet aristocrats and their caviar?
+NA: *CAVIAR ACQUIRED*
+NA: ---
+NA: You exit the luggage cabin and sit down at the spy's table. You flip through the documents.
+NA: It seems to be nothing of actual importance, just some performs from the Agency with the names censored.
+NA: To be safe, you collect all the papers from the table and head to the luggage cabin.
+NA: ---
+NA: You place all the papers together in the corner of the cabin, grab the cigarette lighter you left beside the body, and set it aflame.
+NA: Once the documents are reduced to cinders, you put out the fire with the spy's coat.
+NA: ---
+NA: You return to your seat and motion to the waiter for another borscht.
+NA: On to Smolensk!

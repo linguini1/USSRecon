@@ -1,0 +1,33 @@
+NA: You stand outside the garish, light green doorway.
+NA: Light is visible through the gap between the door and the frame, and you can see the shadows of feet shuffling cast across the concrete floor.
+NA: There is some faint murmuring from inside, you can't make out much of what's being said.
+NA: ---
+NK: Хорошо, вот планы для нашего маленького проекта.
+NK: Alright, here are the plans for our little project.
+NA: ---
+CO: Благадарю, товарищь.
+CO: Thank you, comrade.
+NA: ---
+NK: Без проблем, товарищь. Прежде чем уходите, не хотите что-нибудь поесть?
+NK: No problem, comrade. Before you leave, would you like something to eat?
+NA: ---
+CO: Благадарю, товарищь, но нам надо доставить Сталину эту информатику тотчас.
+CO: Thank you, comrade, but we need to deliver this information to Stalin immediately.
+NA: ---
+GA: Но Коммандер, несколько минутов - это ничего!
+GA: But Commander, a couple of minutes is nothing!
+NA: ---
+NA: Plans for a little project? That sounds like information the Intelligence Agency could use.
+NA: This is the perfect time to bust in...
+NA: While they busy themselves eating (and the rest of the Russian population starves under communism), you have the element of surprise.
+NA: ---
+NA: You kick open the door.
+NA: BANG!
+NA: What seems to be the leader, sitting at the desk with a jar of caviar in one hand and a blin in the other, stares at you blankly.
+NA: The guard and the commander spin around in their chairs to face you.
+NA: ---
+NK: Убите его!
+NK: Kill him!
+NA: ---
+NA: The guard stands up and runs at you while the commander struggles to squeeze out of their chair from in front of the desk, still in shock.
+NA: Fight!

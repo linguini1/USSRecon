@@ -1,0 +1,21 @@
+NA: The bodies lie on the floor unmoving. You quickly pop your head out of the room to check the stairway for additional attackers, but it's empty.
+NA: You decide to loot the Russians, and ruffle through each of their coats.
+NA: ---
+NA: The guard was carrying some more rifle ammo, so you pocket that.
+NA: *RIFLE AMMO ACQUIRED*
+NA: The commander has nothing on them except a handkerchief and a photo of an old woman, presumably their mother.
+NA: The NKVD officer has a packet of pistol ammunition in his inner coat pocket, which you hold on to as well.
+NA: *PISTOL AMMO ACQUIRED*
+NA: On the desk you notice the caviar and mutter to yourself something about socialist pigs. You take that too.
+NA: *CAVIAR ACQUIRED*
+NA: ---
+NA: Just under the bottle of caviar lies an important looking document. These must be the plans that were being discussed.
+NA: You briefly skim the document. The meaning is hard to discern because it's written in Russian cursive, infamous for looking like scribbles.
+NA: From what you can gather, it looks like the Soviets plan to invade Stolpce, Poland in early August.
+NA: This is important information to get to the Intelligence Agency right away!
+NA: *STOLPCE PLANS ACQUIRED*
+NA: ---
+NA: As per your mission instructions, it's time to follow this paper trail and gather any more information you can.
+NA: The document mentioned something about a key military base in the Smolensk Oblast. That's your next stop.
+NA: You make your way down the stairs, out of the alleyway and back onto the busy streets of Moscow.
+NA: You need to get to the train station, where you can safely communicate your findings to the Intelligence Agency and head to Smolensk.

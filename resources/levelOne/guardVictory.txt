@@ -1,0 +1,11 @@
+NA: The two guards lay on the floor, unconscious.
+NA: Somehow, the disputed bottle of vodka has not cracked. And just your luck, the cap is still on. The guard must have been just about to open it.
+NA: You collect the vodka, paw through the two guards' coats and find a magazine of rifle ammunition. Better hold on to that.
+NA: And wouldn't you know, the vodka has a twin sister. You put the second bottle in your bag as well.
+NA: ---
+NA: *VODKA ACQUIRED*
+NA: *VODKA ACQUIRED*
+NA: *RIFLE AMMO ACQUIRED*
+NA: ---
+NA: You step over the guards and stand at the base of the stairs. There are voices coming from the room at the top.
+NA: It must be where the documents are held. You head up the stairs.

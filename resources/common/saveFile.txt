@@ -1,0 +1,13 @@
+C:\coding\python\projects\USSRecon\bonusTrain.py
+Benjamin Smith
+Nagant M1895
+5
+Stolpce Plans | resources/common/documents/stolpce.txt
+ITEMS
+Vodka
+Rifle Ammo
+Rifle Ammo
+Caviar
+Caviar
+Pistol Ammo
+Pistol Ammo

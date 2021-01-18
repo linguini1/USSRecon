@@ -1,0 +1,18 @@
+NA: Thanks to your exceptional training performance and skill with weapons of all varieties, you've been chosen for field work in Moscow.
+NA: You will be tasked with infiltrating an NKVD hideout and collecting information that can help stop the Soviets from spreading communism.
+NA: ---
+NA: All information must be reported back to the Intelligence Agency.
+NA: ---
+NA: Once you succeed, you are expected to continue your investigation throughout Russia without further guidance.
+NA: The Intelligence Agency can provide you with funds and items of need through hidden contacts.
+NA: ---
+NA: You will begin with one bottle of caviar and a Colt 1911. And of course, your highly trained fists.
+NA: ---
+NA: Some important things to note:
+NA:   - Caviar, vodka and other consumables can be used to replenish your health.
+NA:   - Ammunition cases can be used to reload your guns. You must have the right ammo.
+NA:   - You can only replenish up to your max health, so use your items wisely.
+NA:   - Different guns do different amounts of damage and have different firing rates. You may steal enemy weapons, and this will be necessary.
+NA:   - You are able to dodge bullets, but only one bullet per turn.
+NA:   - Dodge can also avoid melee attacks.
+NA:   - Your items and weapon passes on with to the next level. Your health is replenished each level.
