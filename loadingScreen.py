@@ -1,10 +1,15 @@
 # Menu
 
 # Imports
+import winsound
 from resources.common.functions import *
 
 # Impressive title screen
 clear_screen()  # Clearing screen
+
+# Title music
+winsound.PlaySound("resources/common/March.wav", winsound.SND_ASYNC)
+time.sleep(1.4)
 
 print("""UUUUUUUU     UUUUUUUU   SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS RRRRRRRRRRRRRRRRR                                                                              
 U::::::U     U::::::U SS:::::::::::::::S SS:::::::::::::::SR::::::::::::::::R                                                                             
@@ -23,7 +28,7 @@ UU:::::U     U:::::UUS:::::S     SSSSSSSS:::::S     SSSSSSSRR:::::R     R:::::R
     UU:::::::::UU    S:::::::::::::::SS S:::::::::::::::SS R::::::R     R:::::R  ee:::::::::::::e    cc:::::::::::::::c oo:::::::::::oo   n::::n    n::::n
       UUUUUUUUU       SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS   RRRRRRRR     RRRRRRR    eeeeeeeeeeeeee      cccccccccccccccc   ooooooooooo     nnnnnn    nnnnnn""")
 
-time.sleep(3.5)  # Pause before author
+time.sleep(2.3)  # Pause before author
 
 print("""
  ______        __         __     __   __     ______     __  __     __     __   __     __        ______     ______     __    __     ______    
@@ -33,12 +38,13 @@ print("""
   \/_/\/_/      \/_____/   \/_/   \/_/ \/_/   \/_____/   \/_____/   \/_/   \/_/ \/_/   \/_/      \/_____/   \/_/\/_/   \/_/  \/_/   \/_____/
   """)
 
-time.sleep(2.5)  # Pause before loading save
+time.sleep(5.5)  # Pause before loading save
 
 # Check for save file
 while True:
     read_dialogue("TS: Do you have a save file? ")
     saved = input("Enter (y/n): ")
+    winsound.PlaySound(None, winsound.SND_ASYNC)
 
     if saved.lower() == "y" or saved.lower() == "yes":
 
