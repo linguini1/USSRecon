@@ -1,0 +1,22 @@
+NA: The guard lies dead on the ground. You search his coat for anything that might be helpful.
+NA: *RIFLE AMMO ACQUIRED*
+NA: Perfect, some more ammunition.
+NA: ---
+NA: You decide that before moving on, you'll quickly check the guard's booth for other items.
+NA: BANG!
+NA: You kick in the door and start rooting around.
+NA: There's a small case against the back wall that you open. It's filled with snacks for a stakeout.
+NA: *VODKA ACQUIRED*
+NA: *VODKA ACQUIRED*
+NA: *VODKA ACQUIRED*
+NA: *SEMECHKI ACQUIRED*
+NA: *SEMECHKI ACQUIRED*
+NA: These Russians and their damn alcohol.
+NA: ---
+NA: You move on towards the military base. Thankfully the grass is high enough that you're not particularly visible.
+NA: Regardless, it doesn't seem like there are many guards. This base probably doesn't get much action.
+NA: The guards that are at their posts are absentmindedly staring into the sky, or of course, drinking.
+NA: ---
+NA: You finally reach an entrance to the base. It's a nondescript door on the outer wall. Of course, it's locked.
+NA: You kick it open.
+NA: BANG!

@@ -1,0 +1,14 @@
+NA: Those soldiers were a piece of cake. Maybe if Russians stopped drinking all the time, they'd have a fighting chance.
+NA: Well, it's time to loot the bodies again.
+NA: ---
+NA: The first soldier is carrying another round of rifle ammo, and a bag of semechki.
+NA: *RIFLE AMMO ACQUIRED*
+NA: *SEMECHKI ACQUIRED*
+NA: The second soldier is carrying another bag of semechki. Boy, do Russians love their sunflower seeds!
+NA: *SEMECHKI ACQUIRED*
+NA: Your pack is starting to get heavy with all this junk. Better eat some of it soon.
+NA: ---
+NA: You make your way down the hallway and up a set of stairs. You stop just before reaching the top.
+NA: The stairs have led you to the bridge, where two commanders are standing over a war table, backs to you.
+NA: You hold your breath and don't make a sound.
+NA: If you play your cards right, you can take one of them out without them even noticing you.

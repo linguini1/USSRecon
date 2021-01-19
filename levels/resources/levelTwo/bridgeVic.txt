@@ -1,0 +1,18 @@
+NA: The commander lies motionless on the floor. Beside their partner lies draped over the war table.
+NA: You push the first commander's body aside and take a look at the table. It's a map of Stolpce.
+NA: There are troop statuettes scattered on the map. It actually looks like a relatively small operation.
+NA: At the corner of the table is a thick manilla envelope. Those must be some plans.
+NA: You pick up the envelope, tear it open and skim the papers.
+NA: *STOLPCE TRAINING PROTOCOLS ACQUIRED*
+NA: Thankfully, this set of documents is properly typed on a typewriter. There will be no deciphering Russian cursive today.
+NA: It seems that the Soviets plan the invasion of Stolpce to be a rescue mission.
+NA: They'll be freeing two very important communist activists who have been imprisoned by the Poles.
+NA: However, it seems that the last document you apprehended is now out of date. Training is no longer taking place in Smolensk.
+NA: The second phase of training is underway, and is being carried out in Minsk, Soviet Belarus.
+NA: That would explain the lack of security around here.
+NA: ---
+NA: It's time to take this information and get the hell out.
+NA: You look around the bridge room. There is a control panel for security alerts.
+NA: Perfect.
+NA: You press a button labeled "Сектор 5" (sector five) and immediately hear the confused shouts from guards outside.
+NA: While they're busy flocking to the opposite side of the base, you slink back outside the way you came.

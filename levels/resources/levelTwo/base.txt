@@ -1,0 +1,18 @@
+NA: You step into an empty hallway, not very long, lined with doors and lockers.
+NA: In the room at the end of the hallway, you hear yelling.
+NA: ---
+S1: Что за хуйня был этот звук?
+S1: What the hell was that sound?
+NA: ---
+S2: Не знаю, но это нехороший. Давай посмотрить.
+S2: No clue, but it's not good. Let's go look.
+NA: ---
+NA: Two soldiers exit the room and freeze in the middle of the hallway, staring at you.
+NA: You draw your weapon, but they have their AKs out before you can say "сука блят".
+NA: ---
+S1: Убивай их!
+S2: Убивай их!
+S1: Kill them!
+S2: Kill them!
+NA: ---
+NA: This is not looking good.
