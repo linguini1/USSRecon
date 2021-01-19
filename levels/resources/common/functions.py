@@ -147,6 +147,13 @@ def clear_screen():
         _ = system("clear")
 
 
+# Press enter to continue + clear screen
+def enter_cont():
+
+    input("Press enter to continue.")
+    clear_screen()
+
+
 # Display health
 def health_display(player, opponent):
 
