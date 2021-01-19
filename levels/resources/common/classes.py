@@ -1,4 +1,4 @@
-# Classes for USSRecon_o
+# Classes for USSRecon
 
 # Imports
 import random
@@ -285,8 +285,8 @@ class Character:
         print(f"{self.name}: ", end="")  # Dialogue tag
         for character in line[4:]:  # Removes signifier dialogue tag
             print(character, end="", flush=True)  # Prints individual character
-            time.sleep(0.03)  # Small delay for type writer style
-        time.sleep(0.5)  # Processing time
+            time.sleep(fxn.charPause)  # Small delay for type writer style
+        time.sleep(fxn.linePause)  # Processing time
 
     # Display moves
     def display_moves(self):

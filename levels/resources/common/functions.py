@@ -1,4 +1,4 @@
-# Important functions for USSRecon_o
+# Important functions for USSRecon
 
 # Imports
 import importlib
@@ -6,6 +6,10 @@ import time
 from os import system, name
 import winsound
 import resources.common.classes as cls
+
+# Dialogue reading adjustments
+charPause = 0.03
+linePause = 0.5
 
 # Weapons list
 weapons = {"Colt 1911": cls.Colt(),
@@ -40,8 +44,8 @@ def play_music(file=None, loop=True):
 def read_dialogue(line):
     for character in line[4:]:  # Remove signifier dialogue tag
         print(character, end="", flush=True)  # Print characters individually
-        time.sleep(0.03)  # Give pause before next character
-    time.sleep(0.5)  # One second processing time
+        time.sleep(charPause)  # Give pause before next character
+    time.sleep(linePause)  # One second processing time
 
 
 # Save progress

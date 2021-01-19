@@ -1,7 +1,8 @@
 # Menu
 
 # Imports
-from resources.common.functions import *
+from resources.common.functions import *  # Allows me to access functions without extra syntax
+import resources.common.functions as fxn  # Allows me to change the reading speed variable for the WHOLE game
 
 # Impressive title screen
 clear_screen()  # Clearing screen
@@ -45,22 +46,43 @@ print("\n\n\n\n\n")  # Some line gaps
 while True:
     read_dialogue("TS: Do you have a save file? ")
     saved = input("Enter (y/n): ")
-    play_music()
 
     if saved.lower() == "y" or saved.lower() == "yes":
 
+        play_music()  # End music
         clear_screen()
         read_save(restart=True)  # Pass a protagonist with a placeholder name
         break
 
     elif saved.lower() == "n" or saved.lower() == "no":
 
+        play_music()  # End music
         clear_screen()
+        # Ignore ugly error message
         try:
             importlib.import_module("intro.py")
             break
         except ModuleNotFoundError:
             break
+
+    elif saved.lower() == "debug":  # Secret debugging option to change text speeds
+
+        clear_screen()
+
+        while True:
+            char = input("Pause after character: ")
+            line = input("Pause after line: ")
+
+            try:
+                char = float(char)
+                line = float(line)
+                fxn.charPause = char
+                fxn.linePause = line
+                break
+
+            except ValueError:
+                read_dialogue("DE: You didn't give a usable value for one of the options.")
+                print()
 
     else:
         read_dialogue("NA: Yes or no, soldier.")
