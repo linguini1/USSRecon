@@ -76,9 +76,15 @@ while True:
             try:
                 char = float(char)
                 line = float(line)
-                fxn.charPause = char
-                fxn.linePause = line
-                break
+
+                if char >= 0 and line >=0:
+                    fxn.charPause = char
+                    fxn.linePause = line
+                    break
+
+                else:
+                    read_dialogue("DE: You have to pick a number above 0.")
+                    print()
 
             except ValueError:
                 read_dialogue("DE: You didn't give a usable value for one of the options.")
