@@ -20,10 +20,8 @@ gopnik.inventory.append(Semechki())  # Giving gopnik Semechki
 
 # Dialogue
 text_reader("resources/levelOne/gopnik.txt", tags={"PR:": player, "GP:": gopnik})
+enter_cont()  # Clear story
 
-# Give user time to read story
-input("Press enter to continue.")
-clear_screen()
 # Battle
 start_battle(player, gopnik)
 
@@ -43,8 +41,7 @@ play_music(file="resources/common/soundFiles/silence.wav")  # Play empty sound f
 text_reader("resources/levelOne/guards.txt", tags={"G1:": guardOne,
                                                    "G2:": guardTwo,
                                                    "PR:": player})
-input("Press enter to continue.")  # Giving user time to read dialogue
-clear_screen()
+enter_cont()  # Clearing story
 
 # Battle against first guard
 start_battle(player, guardOne)
@@ -65,8 +62,7 @@ player.inventory.append(Vodka())  # Vodka x2
 player.inventory.append(RifleAmmo())  # Rifle ammunition
 # Script
 text_reader("resources/levelOne/guardVictory.txt", narrator=True)
-input("Press enter to continue.")  # Clear narration
-clear_screen()
+enter_cont()  # Clearing story
 regen_break(player)  # Offer player opportunity to use an item before final battle
 
 # Infiltrating document room
@@ -81,8 +77,7 @@ text_reader("resources/levelOne/docRoom.txt", tags={"NK:": boss,
                                                     "GA:": docGuard,
                                                     "CO:": commander,
                                                     "PR:": player})
-input("Press enter to continue.")
-clear_screen()
+enter_cont()  # Clearing story
 
 # Battle with guard
 start_battle(player, docGuard)
@@ -108,10 +103,10 @@ player.inventory.append(RifleAmmo())  # Get rifle ammo from guard
 player.inventory.append(PistolAmmo())  # Get pistol ammo from NKVD officer
 player.inventory.append(Caviar())  # Get caviar from NKVD officer
 player.documents.append(plans)
-text_reader("resources/levelOne/docVictory.txt", narrator=True)
+
+text_reader("resources/levelOne/docVictory.txt", narrator=True)  # Storyline
 play_music(file="resources/common/soundFiles/street.wav")  # Play street sound for exiting building
-input("Press enter to continue.")
-clear_screen()
+enter_cont()  # Clearing story
 
 # Read documents before continuing
 read_document(player)

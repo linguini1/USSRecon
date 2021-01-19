@@ -39,11 +39,10 @@ while True:
 # Starting next level
 if accepted:
 
-    input("Press enter to continue.")
+    enter_cont()  # Clear screen
 
     # Save information
     save(player, __file__)
 
     # Trigger level one
-    clear_screen()  # Clear screen
     importlib.import_module("levelOne.py")  # Open first level

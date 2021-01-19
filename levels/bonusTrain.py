@@ -27,8 +27,8 @@ while True:
         read_dialogue("NA: Suit yourself soldier. I hope you can live with this on your conscience.")
         print()
 
-        input("Press enter to continue.")  # Continue to level two
-        clear_screen()
+        # Continue to level 2
+        enter_cont()
 
         # Importing next level and ignoring error message
         try:
@@ -51,8 +51,7 @@ text_reader("resources/bonusTrain/lure.txt", tags={"PR:": player,
                                                    "SP:": spy})
 
 # Clear story
-input("Press enter to continue.")
-clear_screen()
+enter_cont()
 
 spy.health -= Fists().damage  # Initial punch
 
@@ -68,8 +67,7 @@ player.inventory.append(PistolAmmo())  # Pistol ammo x2
 
 # Script
 text_reader("resources/bonusTrain/victory.txt", narrator=True)
-input("Press enter to continue.")
-clear_screen()
+enter_cont()
 
 # Read documents
 read_document(player)
