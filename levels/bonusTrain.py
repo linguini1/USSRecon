@@ -79,4 +79,4 @@ play_music()  # Ending train sounds before next level
 save(player, __file__)
 
 # Next level
-importlib.import_module("levelTwo.py")
+importlib.import_module("USSRecon/levels/levelTwo/levelTwo.py")
