@@ -1,10 +1,13 @@
 # USSRecon
+RPG game based on being an American spy in the Soviet Union of 1924. Some events are based on historical facts. You must
+infiltrate soviet military and secret police units in order to provide information to the Homeland Intelligence Agency
+and stop the spread of communism across Eastern Europe and the rest of the world.
 
 # How to play
 Read through the following documentation to gain a better understanding of the game mechanics.
 
 
-##Levels
+<h2>Levels</h2>
 At the end of each level you'll be given the option to read your documents. Your inventory content will progress into 
 the next level with you, as well as your weapon and its remaining ammo. You will be restored to full health before each 
 level.
@@ -16,7 +19,7 @@ The game contains bonus levels that will allow you to discover hidden secrets an
 whether you want to complete these levels, as they are optional.
 
 
-##Battles
+<h2>Battles</h2>
 Battles take place between two characters max.
 
 <h3>Order</h3>
@@ -28,8 +31,7 @@ Moves are displayed before each turn. When the character makes a move, the new h
 cleared after each move, with the health bars displayed at the top of the screen. The player is required to press enter
 to continue after each move to confirm that they've read and understand the move that was played.
 
-
-##Moves
+<h2>Moves</h2>
 
 <h3>Punch</h3>
 Punching has unlimited use. It can be dodged, and all characters possess this move. Characters who use a firearm will
@@ -51,8 +53,7 @@ NPCs, this move will default to punch if their primary weapon runs out of ammo. 
 (in case they carry a melee weapon), so this move will just display **"out of ammo"** and prompt a new move choice
 should they run out of ammo.
 
-
-##Weapons
+<h2>Weapons</h2>
 There are three types of weapons: pistols, rifles and melee weapons. Pistols and rifles have their own unique ammo. 
 Importantly, although pistols deal more damage per turn, they can be completely dodged because they fire only once per
 turn. Rifles deal less damage on average, but are guaranteed to hit the opponent because they fire multiple times.
@@ -78,8 +79,7 @@ This rifle deals 30 damage per turn, with 6 damage per shot and 5 shots per turn
 <h3>Federov Avtomat</h3>
 This rifle deals 35 damage per turn, with 7 damage per shot and 5 shots per turn. It holds 40 rounds.
 
-
-##Characters
+<h2>Characters</h2>
 
 <h3>NKVD Kingpin</h3>
 The NKVD Kingpin has 130hp. Because they're bureaucratic and don't often see the field of battle, they usually attack
@@ -107,8 +107,7 @@ Spy has two moves: slash and dodge. They have a 75% chance of slashing, and a 25
 <h3>Gopnik</h3>
 The Gopnik has 50hp. They are slow and intoxicated, and therefore usually attack second. They have only one move: punch.
 
-
-##Items
+<h2>Items</h2>
 
 <h3>Ammo</h3>
 All ammo completely refills the magazine of the gun it is used on.
