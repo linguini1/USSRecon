@@ -525,6 +525,17 @@ class Soldier(Character):
                       f"Shoot": f"{self.weapon.name} does {self.weapon.damage}dmg x {self.weapon.rateOfFire} shots"}
         self.pick_name()
 
+    # Attack
+    def attack(self, opponent):
+
+        if self.weapon.ammo > 0:  # Shoot gun
+            fxn.read_dialogue(f"SE: {self.name} used {self.weapon}!\n")
+            self.weapon.attack(opponent)
+
+        else:  # If there's no ammo, use fists
+            fxn.read_dialogue(f"SE: {self.name} used their fists!\n")
+            Fists().attack(opponent)
+
 
 # Commander class
 class Commander(Character):
