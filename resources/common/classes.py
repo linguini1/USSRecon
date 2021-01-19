@@ -362,7 +362,7 @@ class Protagonist(Character):
     # Switch weapons
     def switch_weapon(self, opponent):
 
-        fxn.read_dialogue(f"NA: Switched {self.weapon} with {opponent.weapon}")
+        fxn.read_dialogue(f"NA: Switched {self.weapon} with {opponent.weapon}.")
         print()
 
         self.weapon = opponent.weapon  # Actual switch

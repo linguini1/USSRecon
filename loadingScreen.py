@@ -50,10 +50,7 @@ while True:
     if saved.lower() == "y" or saved.lower() == "yes":
 
         clear_screen()
-
-        with open("resources/common/data/saveFile.txt", "r") as file:  # open save file
-            read_save(restart=True)  # Pass a protagonist with a placeholder name
-
+        read_save(restart=True)  # Pass a protagonist with a placeholder name
         break
 
     elif saved.lower() == "n" or saved.lower() == "no":

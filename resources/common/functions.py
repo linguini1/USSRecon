@@ -46,7 +46,7 @@ def read_dialogue(line):
 
 # Save progress
 def save(protagonist, level):
-    with open("resources/common/saveFile.txt", "w") as file:
+    with open("resources/common/data/saveFile.txt", "w") as file:
 
         file.write(level.split("/")[-1] + "\n")  # Level last saved
 
@@ -68,41 +68,57 @@ def save(protagonist, level):
 # Read save file
 def read_save(restart=False):
 
+    error = False
+
     protagonist = cls.Protagonist("placeholder")  # Creating empty protag with name placeholder
 
-    with open("resources/common/saveFile.txt", "r") as file:
+    try:
+        with open("resources/common/data/saveFile.txt", "r") as file:
 
-        data = file.readlines()
-        data = [info.replace("\n", "") for info in data]
+            data = file.readlines()
+            data = [info.replace("\n", "") for info in data]
 
-        level = data[0].split("\\")[-1]  # Which level you're on
+            level = data[0].split("\\")[-1]  # Which level you're on
 
-        protagonist.name = data[1]  # Setting name
-        protagonist.weapon = weapons[data[2]]  # Setting weapon
-        protagonist.weapon.ammo = int(data[3])  # Setting weapon ammo
+            protagonist.name = data[1]  # Setting name
+            protagonist.weapon = weapons[data[2]]  # Setting weapon
+            protagonist.weapon.ammo = int(data[3])  # Setting weapon ammo
 
-        itemsFound = False  # Not yet found ITEMS header
+            itemsFound = False  # Not yet found ITEMS header
 
-        # Writing inventory
-        for line in data[4:]:
+            # Writing inventory
+            for line in data[4:]:
 
-            if "ITEMS" in line:  # Search for items header
-                itemsFound = True
+                if "ITEMS" in line:  # Search for items header
+                    itemsFound = True
 
-            if not itemsFound:  # Not yet found ITEMS header
-                title, path = line.split(" | ")
-                protagonist.documents.append(cls.Document(title, path))  # Writing doc title and path
+                if not itemsFound:  # Not yet found ITEMS header
+                    title, path = line.split(" | ")
+                    protagonist.documents.append(cls.Document(title, path))  # Writing doc title and path
 
-            elif itemsFound and "ITEMS" not in line:  # Found ITEMS header
-                protagonist.inventory.append(items[line])
+                elif itemsFound and "ITEMS" not in line:  # Found ITEMS header
+                    protagonist.inventory.append(items[line])
 
-        # Resetting move description in case weapon was switched
-        if issubclass(protagonist.weapon.__class__, cls.Gun):  # If gun
-            protagonist.moves["Attack"] = f"{protagonist.weapon} does {protagonist.weapon.damage}dmg " \
-                                          f"x {protagonist.weapon.rateOfFire} shots."
+            # Resetting move description in case weapon was switched
+            if issubclass(protagonist.weapon.__class__, cls.Gun):  # If gun
+                protagonist.moves["Attack"] = f"{protagonist.weapon} does {protagonist.weapon.damage}dmg " \
+                                              f"x {protagonist.weapon.rateOfFire} shots."
 
-        else:  # If not gun
-            protagonist.moves["Attack"] = f"{protagonist.weapon} does {protagonist.weapon.damage}dmg"
+            else:  # If not gun
+                protagonist.moves["Attack"] = f"{protagonist.weapon} does {protagonist.weapon.damage}dmg"
+    except:  # No save file
+        read_dialogue("TS: You don't have a save file, or it's been tampered with. Starting from intro...")
+        print()
+        input("Press enter to continue.")
+        clear_screen()
+        error = True
+
+    if error:  # If there's an error, just start from the intro
+        # Opening level (and ignoring ugly error message when level terminates)
+        try:
+            importlib.import_module("intro.py")
+        except ModuleNotFoundError:
+            pass
 
     if restart:  # The user is starting from a previously achieved level
         # Opening level (and ignoring ugly error message when level terminates)
