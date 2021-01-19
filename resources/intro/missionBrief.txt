@@ -15,4 +15,4 @@ NA:   - You can only replenish up to your max health, so use your items wisely.
 NA:   - Different guns do different amounts of damage and have different firing rates. You may steal enemy weapons, and this will be necessary.
 NA:   - You are able to dodge bullets, but only one bullet per turn.
 NA:   - Dodge can also avoid melee attacks.
-NA:   - Your items and weapon passes on with to the next level. Your health is replenished each level.
+NA:   - Your items and weapon pass on with you to the next level. Your health is replenished each level.
