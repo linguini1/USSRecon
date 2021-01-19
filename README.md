@@ -3,6 +3,7 @@
 # How to play
 Read through the following documentation to gain a better understanding of the game mechanics.
 
+
 ##Levels
 At the end of each level you'll be given the option to read your documents. Your inventory content will progress into 
 the next level with you, as well as your weapon and its remaining ammo. You will be restored to full health before each 
@@ -13,6 +14,7 @@ restart at the beginning of the same level the next time you play.
 
 The game contains bonus levels that will allow you to discover hidden secrets and collect useful items. You can choose
 whether you want to complete these levels, as they are optional.
+
 
 ##Battles
 Battles take place between two characters max.
@@ -25,6 +27,7 @@ are typically more speedy than others. See ["Characters"](#characters) for a com
 Moves are displayed before each turn. When the character makes a move, the new health stats are displayed. The screen is
 cleared after each move, with the health bars displayed at the top of the screen. The player is required to press enter
 to continue after each move to confirm that they've read and understand the move that was played.
+
 
 ##Moves
 
@@ -47,6 +50,7 @@ This move defaults to using the weapon a character has equipped. It will fire a 
 NPCs, this move will default to punch if their primary weapon runs out of ammo. The player has a separate punch move
 (in case they carry a melee weapon), so this move will just display **"out of ammo"** and prompt a new move choice
 should they run out of ammo.
+
 
 ##Weapons
 There are three types of weapons: pistols, rifles and melee weapons. Pistols and rifles have their own unique ammo. 
@@ -73,6 +77,7 @@ This rifle deals 30 damage per turn, with 6 damage per shot and 5 shots per turn
 
 <h3>Federov Avtomat</h3>
 This rifle deals 35 damage per turn, with 7 damage per shot and 5 shots per turn. It holds 40 rounds.
+
 
 ##Characters
 
@@ -101,6 +106,7 @@ Spy has two moves: slash and dodge. They have a 75% chance of slashing, and a 25
 
 <h3>Gopnik</h3>
 The Gopnik has 50hp. They are slow and intoxicated, and therefore usually attack second. They have only one move: punch.
+
 
 ##Items
 
