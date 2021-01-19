@@ -164,7 +164,7 @@ class Ammo:
 
     # Print
     def __str__(self):
-        return self.name
+        return f"{self.name} - reloads {self.gunType} to full"
 
     # Reload gun
     def use(self, user, choice):
@@ -212,7 +212,7 @@ class PowerUp:
 
     # Display as string
     def __str__(self):
-        return self.name
+        return f"{self.name} - restores {self.regen}hp"
 
     # Use itself
     def use(self, user, choice):
@@ -285,8 +285,8 @@ class Character:
         print(f"{self.name}: ", end="")  # Dialogue tag
         for character in line[4:]:  # Removes signifier dialogue tag
             print(character, end="", flush=True)  # Prints individual character
-            time.sleep(0.003)  # Small delay for type writer style
-        time.sleep(0)  # Processing time
+            time.sleep(0.03)  # Small delay for type writer style
+        time.sleep(0.5)  # Processing time
 
     # Display moves
     def display_moves(self):
@@ -491,7 +491,7 @@ class NKVD(Character):
     # Attack
     def attack(self, opponent):
 
-        attack = random.choice([True, False])  # Pick between dodging and attacking
+        attack = random.choice([True, False, True])  # Pick between dodging and attacking
 
         if attack:  # Use a weapon to attack
 
@@ -594,7 +594,7 @@ class Spy(Character):
 
     def attack(self, opponent):
 
-        attack = random.choice([True, False])  # Pick between dodging and attacking
+        attack = random.choice([True, False, True, True])  # Pick between dodging and attacking
 
         if attack:  # Use a weapon to attack
             fxn.read_dialogue(f"SE: {self.name} used slash!")

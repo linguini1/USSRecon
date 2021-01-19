@@ -52,7 +52,7 @@ weapon_switch(player, guardOne)
 
 play_music(file="resources/common/soundFiles/silence.wav")  # Play empty sound for stairwell
 # Battle against second guard
-read_dialogue("NA: The first guard is on the ground, unconscious. The other guard, stunned and intoxicated takes a "
+read_dialogue("NA: The first guard is on the ground, dead. The other guard, stunned and intoxicated takes a "
               "swing at you.")
 print("\n")
 start_battle(player, guardTwo)

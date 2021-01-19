@@ -1,11 +1,11 @@
 C:\coding\python\projects\USSRecon\bonusTrain.py
-Poopie
-Nagant M1895
-6
+Comrade Jenovca
+Fedorov Avtomat
+25
 Stolpce Plans | resources/common/documents/stolpce.txt
 ITEMS
 Rifle Ammo
-Rifle Ammo
+Pistol Ammo
 Caviar
 Caviar
 Pistol Ammo

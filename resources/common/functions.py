@@ -40,8 +40,8 @@ def play_music(file=None, loop=True):
 def read_dialogue(line):
     for character in line[4:]:  # Remove signifier dialogue tag
         print(character, end="", flush=True)  # Print characters individually
-        time.sleep(0.0003)  # Give pause before next character
-    time.sleep(0.0001)  # One second processing time
+        time.sleep(0.03)  # Give pause before next character
+    time.sleep(0.5)  # One second processing time
 
 
 # Save progress
