@@ -1,4 +1,4 @@
-NA: The commander lies motionless on the floor. Beside their partner lies draped over the war table.
+NA: The commander lies motionless on the floor. Beside them, their partner lies draped over the war table.
 NA: You push the first commander's body aside and take a look at the table. It's a map of Stolpce.
 NA: There are troop statuettes scattered on the map. It actually looks like a relatively small operation.
 NA: At the corner of the table is a thick manilla envelope. Those must be some plans.
