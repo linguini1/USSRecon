@@ -10,3 +10,4 @@ NA: The door is flat with no handles, typical industrial style. You stick the fl
 NA: Click!
 NA: The door opens and you step into a dimly lit stairwell. The bottom half of the walls are a light green which match the wrought iron railings.
 NA: Just up the stairwell, you can hear two voices.
+NA: ---
