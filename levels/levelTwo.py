@@ -27,7 +27,7 @@ play_music(file="resources/common/soundFiles/plain.wav")  # Starting outside noi
 weapon_switch(player, guard)  # Switch weapons
 
 # Victory
-for item in [RifleAmmo(), Vodka(), Vodka(), Vodka(), Semechki(), Semechki()]:
+for item in [RifleAmmo(), Caviar(), Vodka(), Vodka(), Semechki(), Semechki()]:
     player.inventory.append(item)  # Collecting loot
 
 text_reader("resources/levelTwo/gate.txt", narrator=True)  # Victory and moving to the base's entrance
@@ -53,6 +53,8 @@ weapon_switch(player, soldierTwo)  # Weapon switch
 
 # Victory
 text_reader("resources/levelTwo/bridge.txt", narrator=True)  # Narration
+player.inventory.append(Semechki())  # Semechki
+player.inventory.append(Semechki())  # Semechki x2
 
 # Clear story
 enter_cont()
