@@ -57,9 +57,9 @@ spy.health -= Fists().damage  # Initial punch
 
 # Battle, spy moves first
 start_battle(player, spy, first=True)
+play_music(file="resources/common/soundFiles/train.wav")  # Starting train sounds after battle again
 weapon_switch(player, spy)  # Switch weapons
 
-play_music(file="resources/common/soundFiles/train.wav")  # Starting train sounds after battle again
 # Victory
 player.inventory.append(Caviar())  # Carries caviar
 player.inventory.append(PistolAmmo())  # Pistol ammo
@@ -77,4 +77,4 @@ play_music()  # Ending train sounds before next level
 save(player, __file__)
 
 # Next level
-importlib.import_module("USSRecon/levels/levelTwo/levelTwo.py")
+importlib.import_module("levelTwo.py")
