@@ -335,14 +335,15 @@ def text_reader(fileLocation, tags=None, narrator=False):
 # Regen break
 def regen_break(player):
 
-    read_dialogue(f"NA: Your current health is {player.health}/{player.maxHealth}.")  # Display health
-    print()  # New line
+    while True:
 
-    if issubclass(player.weapon.__class__, cls.Gun):  # If weapon is gun, display its ammo
-        read_dialogue(f"NA: Your {player.weapon} has {player.weapon.ammo}/{player.weapon.magazineSize} rounds left.")
+        read_dialogue(f"NA: Your current health is {player.health}/{player.maxHealth}.")  # Display health
         print()  # New line
 
-    while True:
+        if issubclass(player.weapon.__class__, cls.Gun):  # If weapon is gun, display its ammo
+            read_dialogue(
+                f"NA: Your {player.weapon} has {player.weapon.ammo}/{player.weapon.magazineSize} rounds left.")
+            print()  # New line
 
         choice = input("Would you like to use an item before you continue? Enter(y/n): ")  # Use item?
 
@@ -376,6 +377,7 @@ def read_document(player):
         elif choice.lower() == "no" or choice.lower() == "n":  # No
             read_dialogue("NA: Suit yourself, soldier.")
             print()
+            enter_cont()
             break
 
         else:  # Invalid input
