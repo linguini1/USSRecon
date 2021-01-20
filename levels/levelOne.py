@@ -45,18 +45,18 @@ enter_cont()  # Clearing story
 
 # Battle against first guard
 start_battle(player, guardOne)
-weapon_switch(player, guardOne)
-
 play_music(file="resources/common/soundFiles/silence.wav")  # Play empty sound for stairwell
+weapon_switch(player, guardOne)  # Weapon switch
+
 # Battle against second guard
 read_dialogue("NA: The first guard is on the ground, dead. The other guard, stunned and intoxicated takes a "
               "swing at you.")
 print("\n")
 start_battle(player, guardTwo)
-weapon_switch(player, guardTwo)
+play_music(file="resources/common/soundFiles/silence.wav")  # Play empty sound for stairwell
+weapon_switch(player, guardTwo)  # Weapon switch
 
 # Victory
-play_music(file="resources/common/soundFiles/silence.wav")  # Play empty sound for stairwell
 player.inventory.append(Vodka())  # Vodka
 player.inventory.append(Vodka())  # Vodka x2
 player.inventory.append(RifleAmmo())  # Rifle ammunition
@@ -70,7 +70,7 @@ docGuard = Guard()  # Document room guard
 commander = Commander()  # Commander
 boss = NKVD()  # NKVD leader
 boss.inventory.append(Caviar())  # NKVD leader gets caviar
-plans = Document("Stolpce Plans", "resources/common/documents/stolpce.txt")
+plans = Document("Stolpce Plans", "resources/documents/stolpce.txt")
 
 # Dialogue
 text_reader("resources/levelOne/docRoom.txt", tags={"NK:": boss,
@@ -81,22 +81,22 @@ enter_cont()  # Clearing story
 
 # Battle with guard
 start_battle(player, docGuard)
-weapon_switch(player, docGuard)
 play_music(file="resources/common/soundFiles/silence.wav")  # Play empty sound for stairwell
+weapon_switch(player, docGuard)  # Weapons switch
 
 # Battle with commander
-read_dialogue("NA: The commander has escaped their chair and runs out you, gun pointed at your chest.")
+read_dialogue("NA: The commander has escaped their chair and runs at you, gun pointed at your chest.")
 print("\n")
 start_battle(player, commander, first=True)
-weapon_switch(player, commander)
 play_music(file="resources/common/soundFiles/silence.wav")  # Play empty sound for stairwell
+weapon_switch(player, commander)  # Weapon switch
 
 # Battle with NKVD leader
 read_dialogue("NA: The NKVD leader looks stunned, yells something unintelligible and points their gun at your head.")
 print("\n")
 start_battle(player, boss)
-weapon_switch(player, boss)
 play_music(file="resources/common/soundFiles/silence.wav")  # Play empty sound for stairwell
+weapon_switch(player, boss)  # Weapon switch
 
 # Victory
 player.inventory.append(RifleAmmo())  # Get rifle ammo from guard
