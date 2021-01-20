@@ -26,8 +26,8 @@ NA: BANG!
 NA: What seems to be the leader, sitting at the desk with a jar of caviar in one hand and a blin in the other, stares at you blankly.
 NA: The guard and the commander spin around in their chairs to face you.
 NA: ---
-NK: Убите его!
-NK: Kill him!
+NK: Убите их!
+NK: Kill them!
 NA: ---
 NA: The guard stands up and runs at you while the commander struggles to squeeze out of their chair from in front of the desk, still in shock.
 NA: Fight!
