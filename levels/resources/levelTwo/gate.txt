@@ -6,7 +6,7 @@ NA: You decide that before moving on, you'll quickly check the guard's booth for
 NA: BANG!
 NA: You kick in the door and start rooting around.
 NA: There's a small case against the back wall that you open. It's filled with snacks for a stakeout.
-NA: *CAVIAR ACQUIRED*
+NA: *VODKA ACQUIRED*
 NA: *VODKA ACQUIRED*
 NA: *VODKA ACQUIRED*
 NA: *SEMECHKI ACQUIRED*
