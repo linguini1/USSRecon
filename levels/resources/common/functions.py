@@ -305,7 +305,8 @@ def weapon_switch(P1, P2):
         clear_screen()
 
     elif switch.lower() == "no" or switch.lower() == "n":
-        print(f"Held on to {P1.weapon}.")
+        read_dialogue(f"NA: Held on to {P1.weapon}.")
+        print()
         input("Press enter to continue.")
         clear_screen()
 
