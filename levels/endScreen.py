@@ -59,4 +59,5 @@ print("\n")
 
 # Press enter to continue
 input("Press enter to close the program.")
+clear_screen()
 quit()
