@@ -4,7 +4,8 @@ infiltrate soviet military and secret police units in order to provide informati
 and stop the spread of communism across Eastern Europe and the rest of the world.
 
 # How to play
-Read through the following documentation to gain a better understanding of the game mechanics.
+Read through the following documentation to gain a better understanding of the game mechanics. When you're ready to
+play, run the **loadingScreen.py** file from the console window.
 
 
 <h2>Levels</h2>
@@ -24,7 +25,7 @@ Battles take place between two characters max.
 
 <h3>Order</h3>
 The character who is most quick-witted will attack first. This largely depends on the situation, but some characters
-are typically more speedy than others. See ["Characters"](#characters) for a comprehensive list of attributes.
+are typically more speedy than others. See _**Characters**_ for a comprehensive list of attributes.
 
 <h3>Format</h3>
 Moves are displayed before each turn. When the character makes a move, the new health stats are displayed. The screen is
