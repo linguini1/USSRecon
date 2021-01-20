@@ -14,7 +14,7 @@ NA: The waiter brings you a bowl of borscht and shot of vodka. As you relax in y
 NA: At the table two booths in front of you, a spindly looking Russian is typing into a typewriter, with documents scattered around them.
 NA: The document headers are written in English.
 NA: ---
-NA: You wait a while, watching the Russian go about their work. They finally gets up to use the washroom.
+NA: You wait a while, watching the Russian go about their work. They finally get up to use the washroom.
 NA: You leave your now empty bowl of borscht at your table, and under the guise of stretching your legs, you walk past the documents.
 NA: You didn't read much, but one of the documents has a "TOP SECRET stamp in the corner. That does not look good.
 NA: It seems you're dealing with a Russian spy.
