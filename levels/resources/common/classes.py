@@ -458,8 +458,8 @@ class Protagonist(Character):
                     if 1 <= choice <= len(self.documents):  # An item was selected
                         print()
                         self.documents[choice - 1].read()
-                        input("Press enter to continue.")
-                        fxn.clear_screen()
+                        print()  # Newline
+                        fxn.enter_cont()
 
                     else:
                         fxn.read_dialogue("NA: You didn't pick a valid option, man!")  # Out of range
